@@ -1,0 +1,24 @@
+.thumbnail-item {
+  width: 96%;
+}
+.popup-container {
+  width: 80vw;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.menu-close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.video-container {
+  width: 90%;
+}

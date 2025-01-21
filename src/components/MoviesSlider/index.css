@@ -1,0 +1,31 @@
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  height: 100%;
+}
+
+.custom-arrow:hover {
+  opacity: 1;
+}
+
+.custom-arrow.prev {
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.custom-arrow.next {
+  right: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.custom-arrow svg {
+  font-size: 20px;
+}
